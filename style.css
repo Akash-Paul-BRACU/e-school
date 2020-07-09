@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 90px;
+}
+.box{
+    background-color:#f0fff0;
+}
+.signin{
+    background: rgb(33, 181, 115);
+    border: solid#21B573;
+    color: #fff;
+    border-radius: 20px;
+    width: 104px;
+    height: 43px;
+}
+h1{
+    font-size: 50px;
+}
+.program{
+    color:#21B573;
+}
+.head-tag{
+    margin-top: 100px;
+}
+.tag{
+    color:red;
+}
+
+.card-box{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.pic{
+    margin-top: 40px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.container .card-deck .card:hover{
+   background-color: white !important;
+   cursor: pointer;
+}
+.container .card-deck .card .course-pic{
+    padding: 15px 15px;
+}
+.test-pic{
+    width: 120px;
+    margin-left: 130px;
+    margin-top: -30px;
+}
+.paragraph{
+    position: absolute;
+    width: 580px;
+height: 90px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+}
+
+.testimonial-part{
+    margin-bottom: 80px;
+}
+
+.foot{
+    background-color: #282531;
+    height: 60vh;
+}
+.detail{
+    width: 123px;
+height: 181px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+}
+
+.footer-text{
+    width: 358px;
+height: 60px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        margin-bottom: 85px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .container{
+        margin-bottom: 73px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .container{
+        margin-bottom: 71px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .paragraph{
+        width: auto;
+    }
+    .test-pic{
+        margin: auto;
+    }
+    .footer-text{
+        width: 290px;
+    }
+    .picture{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .paragraph{
+        width: auto;
+    }
+    .testimonial-part{
+        margin-bottom: 250px;
+    }
+    .foot{
+        height: 200vh;
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    .testimonial-part{
+        margin-bottom: 250px;
+    }
+    .paragraph{
+        width: auto;
+    }
+    .test-pic{
+        margin: auto;
+    }
+    .foot{
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .testimonial-part{
+        margin-bottom: 250px;
+    }
+    .paragraph{
+        width: auto;
+    }
+    .test-pic{
+        margin: auto;
+    }
+    .foot{
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .paragraph{
+        width: 330px;
+    }
+    .testimonial-part{
+        margin-bottom: 250px;
+    }
+   .test-pic{
+       margin: auto;
+   }
+   .foot{
+    height: 200vh;
+}
+}
+@media only screen and (max-width: 320px){
+    .paragraph{
+        width: 260px;
+    }
+    .testimonial-part{
+        margin-bottom: 270px;
+    }
+    .footer-text{
+        width: 310px;
+    }
+    .foot{
+        height: 200vh;
+    }
+  
+}
